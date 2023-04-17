@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, papel, tijera 2.0</title>
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <!-- TItulo del juego  -->
+
+    <section>
+        <h1>Piedra. Papel. Tijeras.  Version 2.0</h1>
+    </section>
+    <!-- Instrucciones. -->
+    <section>
+        <div>
+            <h2>De que va?</h2>
+            <p>Este juego se basa en elegir entre 3 opciones. PIEDRA, PAPEL y TIJERAS</p>
+        </div>
+        <div>
+            <h2>Instrucciones. </h2>
+            <p> En las siguietes opciones debes elegir entre las 3 opciones disponibles.</p>
+            <h3> Pasos</h3>
+            <div>
+                <ol>
+                    <li>Elegir unas de las 3 opciones.</li>
+                    <li>Dar click en el boton de seleccionar. </li>
+                    <li>Esperar y ver el resultado. </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIEDRA PAPEL O TIJERAS -->
+
+    <Section>
+        <div>
+            <label for="piedra">Piedra</label>
+            <input type="radio" name="seleccionar" id="piedra">
+
+            <label for="papel">Papel</label>
+            <input type="radio" name="seleccionar" id="papel">
+
+            <label for="tijeras">tijeras</label>
+            <input type="radio" name="seleccionar" id="tijeras">
+            <br>
+            <br>
+        </div>
+        <button id="BotonSeleccionar">Seleccionar</button>
+    </Section>
+    <!-- Selecion de Jugador y de PC  -->
+    <section>
+        <p>Has seleccionado: <span id="seleccionJugador"></span></p>
+        <br>
+        <p>La PC ha seleccionado: <span id="seleccionPC"></span></p>
+    </section>
+</body>
+</html>
